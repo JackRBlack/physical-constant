@@ -1,2 +1,2 @@
-# physics-constant
-A module for physics constant in Python, along with unit conversion feature.
+# physical-constant
+A module for physical constant in Python, along with unit conversion feature.
