@@ -2,7 +2,7 @@
 
 A module for physical constant in Python, along with unit conversion feature.
 
-## 0. Introduction
+## Introduction
 
 The following definition is extracted from Wikipedia page [physical constant](https://en.wikipedia.org/wiki/Physical_constant):
 
@@ -10,10 +10,10 @@ The following definition is extracted from Wikipedia page [physical constant](ht
 
 There are two parts in this project: 
 
-* a module including physics constant;
-* a module doing unit conversion.
+* **constant**: a module including physics constant;
+* **conversion**: a module doing unit conversion.
 
-This project is available in my GitHub repository [physics-constant](https://github.com/JackRBlack/physics-constant).
+## Module: constant
 
 The **constant** module will be organized in such manner:
 ``` python
