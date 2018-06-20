@@ -229,3 +229,119 @@ def eV_2_J(varA):
     varB = varA * e
     return varB
 
+# Pressure
+
+def Pa_2_bar(varA):
+    '''
+        Convert pascal to bar.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            varA : [double] A value in pascal.
+            
+        returns:
+            varB : [double] A value in bar.
+            
+        example:
+            P_bar = Pa_2_bar(12345.6)
+    '''
+    varB = varA / 1e5
+    return varB
+
+def bar_2_Pa(varA):
+    '''
+        Convert bar to pascal.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            varA : [double] A value in bar.
+            
+        returns:
+            varB : [double] A value in pascal.
+            
+        example:
+            P_Pa = bar_2_Pa(1.0)
+    '''
+    varB = varA * 1e5
+    return varB
+
+def Pa_2_atm(varA):
+    '''
+        Convert pascal to standard atomsphere.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            varA : [double] A value in pascal.
+            
+        returns:
+            varB : [double] A value in atm.
+            
+        example:
+            P_atm = Pa_2_atm(12345.6)
+    '''
+    varB = varA / atm
+    return varB
+
+def atm_2_Pa(varA):
+    '''
+        Convert standard atomsphere to pascal.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            varA : [double] A value in atm.
+            
+        returns:
+            varB : [double] A value in pascal.
+            
+        example:
+            P_Pa = atm_2_Pa(1.0)
+    '''
+    varB = varA * atm
+    return varB
+
+def Pa_2_Torr(varA):
+    '''
+        Convert pascal to torr.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            varA : [double] A value in pascal.
+            
+        returns:
+            varB : [double] A value in torr.
+            
+        example:
+            P_Torr = Pa_2_Torr(12345.6)
+    '''
+    varB = varA * 760 / atm
+    return varB
+
+def Torr_2_Pa(varA):
+    '''
+        Convert torr to pascal.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            varA : [double] A value in torr.
+            
+        returns:
+            varB : [double] A value in pascal.
+            
+        example:
+            P_Pa = Torr_2_Pa(1.0)
+    '''
+    varB = varA * atm / 760
+    return varB
+
