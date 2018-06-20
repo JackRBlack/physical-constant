@@ -169,6 +169,82 @@ def eV_2_J(varA):
     varB = varA * e
     return varB
 
+def J_2_K(varA):
+    '''
+        Convert joule to kelvin using Boltzmann constant.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            varA : [double] A value in joule.
+            
+        returns:
+            varB : [double] A value in kelvin.
+            
+        example:
+            T = J_2_K(5.0)
+    '''
+    varB = varA / k_B
+    return varB
+
+def K_2_J(varA):
+    '''
+        Convert kelvin to joule using Boltzmann constant.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            varA : [double] A value in kelvin.
+            
+        returns:
+            varB : [double] A value in joule.
+            
+        example:
+            E = K_2_J(5.0)
+    '''
+    varB = varA * k_B
+    return varB
+
+def eV_2_K(varA):
+    '''
+        Convert electronvolt to kelvin using Boltzmann constant.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            varA : [double] A value in eV.
+            
+        returns:
+            varB : [double] A value in kelvin.
+            
+        example:
+            T = eV_2_K(1.0)
+    '''
+    varB = eV_2_J(varA) / k_B
+    return varB
+
+def K_2_eV(varA):
+    '''
+        Convert kelvin to electronvolt using Boltzmann constant.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            varA : [double] A value in kelvin.
+            
+        returns:
+            varB : [double] A value in electronvolt.
+            
+        example:
+            T = K_2_eV(23.0)
+    '''
+    varB = J_2_eV(varA * k_B)
+    return varB
+
 # Pressure
 
 def Pa_2_bar(varA):
