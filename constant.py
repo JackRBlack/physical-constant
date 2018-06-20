@@ -36,3 +36,19 @@ m_p = 1.672621898e-27 # <m_e> [kg] {1.2e-8} <proton mass>
 a_0 = 5.2917721067e-11 # <a_0> [m] {2.3e-9} <Bohr radius, defined to be hbar/(a*m_e*c)>
 
 r_e = 2.8179403227e-15 # <r_e> [m] {6.8e-10} <classical electron radius, defined to be e^2/(4*pi*e_0*m_e*c^2)>
+
+# Physico-chemical constants
+
+N_A = 6.022140858e23 # <N_A> [mol^-1] {1.2e-8} <Avogadro constant>
+
+k_B = 1.38064853e-23 # <k_B> [J K^-1] {5.7e-7} <Boltzmann constant>
+
+R = 8.3144598 # <R> [J mol^-1 K^-1] {5.7e-7} <gas constant, R = N_A * k_B>
+
+m_u = 1.660539040e-27 # <m_u> [kg] {1.2e-8} <atomic mass constant>
+
+# Adopted values
+
+g_n = 9.80665 # <g_n> [m s^-2] {defined} <standard acceleration of gravity>
+
+atm = 101325 # <atm> [Pa] {defined} <standard atmosphere>
