@@ -20,3 +20,16 @@ The **constant** module will be organized in such manner:
 VAR = value # <symbol> [unit] {relative standard uncertainty} <explanation>
 ```
 where the value is refered to Wikipedia page [physical constant](https://en.wikipedia.org/wiki/Physical_constant).
+
+## Module: conversion
+
+The **conversion** module will be organized in such manner:
+``` python
+def UNITA_2_UNITB(varA):
+    '''
+        description
+    '''
+    {conversion program}
+    return varB
+```
+where `varA` is a value in `UNITA` and `varB` is a value in `UNITB`.
