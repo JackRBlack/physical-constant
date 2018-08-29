@@ -55,6 +55,12 @@ g_n = 9.80665 # <g_n> [m s^-2] {defined} <standard acceleration of gravity>
 
 atm = 101325 # <atm> [Pa] {defined} <standard atmosphere>
 
+# Quantum Hall effect
+
+quan_r = 25812.80745 # <> [ohm] <quantum resistivity, 2*pi*hbar/e^2>
+
+flux_quan = 4.135667662e-15 # <\phi_0> [Wb] <flux quantum, 2*pi*hbar/e>
+
 
 # Part 2: unit conversion
 
