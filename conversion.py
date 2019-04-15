@@ -360,3 +360,25 @@ def Torr_2_Pa(varA):
     '''
     varB = varA * atm / 760
     return varB
+
+# Number
+
+def sn(varA, n):
+    '''
+        Represent number in scientific notation.
+        
+        Author: Wenjie Chen 
+        E-mail: wenjiechen@pku.edu.cn
+        
+        args:
+            varA : [double] A number for conversion.
+            n : [int] A number to indicate the decimal number.
+            
+        returns:
+            varB : [double] The representation in scientific notation.
+            
+        example:
+            sn(314159, 3)
+    '''
+    STRING = '{:.' + str(n) + 'e}'
+    return STRING.format(varA)
